@@ -41,6 +41,7 @@ const Content = (props: Props) => {
           initialIsVisible={isSelected() && selectedViewMode() === ViewMode.Grid}
           data={props.data}
           categories_overridden={props.categories_overridden}
+          group={props.group}
         />
       </div>
     </div>

@@ -359,6 +359,19 @@
             "type": "string",
             "minLength": 1,
             "examples": ["Group 1"]
+          },
+          "category_rows": {
+            "title": "Category rows",
+            "description": "Optional layout configuration for categories within the group. Each entry represents a row of categories that should be displayed horizontally together. Categories not listed will use default layout (one category per row).",
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": ["Category 1", "Category 2"]
+              }
+            },
+            "examples": [["Category 1", "Category 2"], ["Category 3"]]
           }
         }
       }

@@ -54,6 +54,7 @@ export interface Group {
   normalized_name: string;
   alias?: string;
   categories: string[];
+  category_rows?: string[][]; // Optional layout configuration for categories within the group
 }
 
 export interface GuideSummary {

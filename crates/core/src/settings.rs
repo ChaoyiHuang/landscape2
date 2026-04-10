@@ -695,6 +695,12 @@ pub struct Group {
 
     #[serde(skip_serializing_if = "Option::is_none")]
     pub normalized_name: Option<String>,
+
+    /// Optional layout configuration for categories within the group.
+    /// Each entry represents a row of categories that should be displayed
+    /// horizontally together. Categories not listed will use default layout.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub category_rows: Option<Vec<Vec<CategoryName>>>,
 }
 
 /// Header configuration.
