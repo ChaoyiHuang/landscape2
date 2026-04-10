@@ -4374,6 +4374,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             second_path:
               - "CNAI / General Orchestration"
+              - "AI Native Infra / Orchestration and Scheduling"
             extra:
               lfx_slug: karmada
               accepted: '2021-09-14'

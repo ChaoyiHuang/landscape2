@@ -309,8 +309,8 @@ groups:
     alias: ai
     categories:
       - CNAI
-  - name: AI Native
-    alias: ai-native
+  - name: AI Native (proposed)
+    alias: ai-native-proposed
     categories:
       - AI Agent
       - Inference
